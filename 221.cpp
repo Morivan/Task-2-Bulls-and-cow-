@@ -23,7 +23,6 @@ std::vector <int> vctr_random(int bin) {
 	for (int i = 0; i < bin; ++i) {
 		vctr_pc[i] = rand() % 10;
 		if (vctr_pc[0] == 0) vctr_pc[0] = rand() % 10;
-		std::cout << vctr_pc[i];
 	}
 	return vctr_pc;
 }
